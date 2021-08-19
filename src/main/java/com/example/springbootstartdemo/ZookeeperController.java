@@ -71,7 +71,7 @@ public class ZookeeperController {
         MyThread myThread2 = new MyThread("线程2");
         zooKeeperTemplate.lock(path, time, TimeUnit.SECONDS , myThread1);
         zooKeeperTemplate.lock(path, time, TimeUnit.SECONDS , myThread2);
-        return "success";
+        return "success---";
     }
 
 
