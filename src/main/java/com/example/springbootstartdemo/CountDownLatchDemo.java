@@ -5,6 +5,7 @@ import java.util.concurrent.CountDownLatch;
 public class CountDownLatchDemo {
 
     /*
+     * 参考资料：https://www.cnblogs.com/dolphin0520/p/3920397.html
      * CountDownLatch类解析
      * public void await() throws InterruptedException { };   //调用await()方法的线程会被挂起，它会等待直到count值为0才继续执行
      * public boolean await(long timeout, TimeUnit unit) throws InterruptedException { };  //和await()类似，只不过等待一定的时间后count值还没变为0的话就会继续执行
